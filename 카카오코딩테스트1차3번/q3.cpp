@@ -12,7 +12,7 @@ void function(istream& ins)
 	char c;
 	while (ins && ins.peek() != '\n')//ohohoh
 	{//test
-		cout << "test" << endl;
+		cout << "test" << endl;//test2
 		if(ins.peek()==',')
 		{
 			//ins >> c;
