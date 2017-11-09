@@ -10,7 +10,7 @@ void function(istream& ins)
 	int i=0;
 	string str;
 	char c;
-	while (ins && ins.peek() != '\n')
+	while (ins && ins.peek() != '\n')//ohohoh
 	{
 		cout << "test" << endl;
 		if(ins.peek()==',')
