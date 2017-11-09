@@ -11,7 +11,7 @@ void function(istream& ins)
 	string str;
 	char c;
 	while (ins && ins.peek() != '\n')//ohohoh
-	{
+	{//test
 		cout << "test" << endl;
 		if(ins.peek()==',')
 		{
